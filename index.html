@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>API</title>
+</head>
+<body>
+    <nav class="nav">
+        <div class="search-box">
+            <img src="./assets/search-outline.svg" class='search-icon' alt="">
+            <input type="text" name="location" id="input-location" placeholder="Search">
+            <div class="err-msg hidden">⚠️Location Not Found</div>
+        </div>
+    </nav>   
+    <main class="main">
+        <div class="info">
+            <div class="temperature">29<button type="button" class="temp-btn">°C</button></div>
+            <p class="description">
+                <img src="./assets/200.svg" class="w-icon" alt="">
+            </p>
+            <div class="other-info">
+                <div class="wind-box box">
+                    <img src="./assets/ph_wind-fill.svg" class='wind-icon icons' alt="wind-icon">
+                    <p class="wind-data">8km/h</p>
+                </div>
+                <div class="humidity-box box">
+                    <img src="./assets/material-symbols_humidity-low.svg" class='humidity-icon icons' alt="humidity-icon">
+                    <p class="humidity-data">59%</p>
+                </div>
+                <div class="rain-box box">
+                    <img src="./assets/wpf_rain.svg" class='rain-icon icons' alt="rain-icon">
+                    <p class="rain-data">17%</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
