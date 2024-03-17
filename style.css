@@ -10,7 +10,7 @@
 body{
   background-image: url(./assets/pexels-alexander-kovalev-2847648.jpg);
   background-repeat: no-repeat;
-  background-size: 1536px 800px;
+  background-size: cover;
   height: 100vh;
 }
 
